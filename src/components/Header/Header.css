@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../../assets/pool-bg.jpg);
+  background-position-y: 82em;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 10rem;
+  color: rgb(255, 255, 62);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ul {
+  padding: 1.5em 0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0em 0.8em;
+}
+
+ul li a {
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: #15181c;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+ul li a:hover {
+  color: #15181c;
+  background-color: rgb(255, 255, 62);
+}

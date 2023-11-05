@@ -15,6 +15,7 @@ function Main() {
           <a href="#">Life Music</a>
         </li>
       </ul>
+      <span></span>
       <div className="content">
         <img src={instance} alt="" />
         <div className="description">

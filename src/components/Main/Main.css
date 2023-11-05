@@ -7,6 +7,21 @@ section {
   background-color: #282c34;
 }
 
+section ul {
+  margin-bottom: 0;
+}
+
+section ul li {
+  margin: 0em 0.4em;
+}
+
+section span {
+  height: 0.1em;
+  width: 30%;
+  background-color: whitesmoke;
+  margin-bottom: 1.5em;
+}
+
 section .content {
   box-sizing: border-box;
   background-color: whitesmoke;

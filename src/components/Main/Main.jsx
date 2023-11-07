@@ -1,4 +1,5 @@
 import instance from "../../assets/for-main.jpg";
+import { DataForMenu } from "../../Datas/Data";
 import "../Main/Main.css";
 
 function Main() {
@@ -16,16 +17,18 @@ function Main() {
         </li>
       </ul>
       <span></span>
-      <div className="content">
-        <img src={instance} alt="" />
-        <div className="description">
-          <h1>Pool</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni incidunt cumque praesentium iusto harum sed. Quae ducimus enim sapiente? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quisquam
-            exercitationem sequi, perspiciatis veniam eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sapiente doloremque voluptatibus blanditiis quia saepe expedita iure nemo, reiciendis explicabo!
-          </p>
+      {DataForMenu.map((dataParams) => (
+        <div className="content">
+          <img src={dataParams} alt="" />
+          <div className="description">
+            <h1>Pool</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni incidunt cumque praesentium iusto harum sed. Quae ducimus enim sapiente? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quisquam
+              exercitationem sequi, perspiciatis veniam eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sapiente doloremque voluptatibus blanditiis quia saepe expedita iure nemo, reiciendis explicabo!
+            </p>
+          </div>
         </div>
-      </div>
+      ))}
     </section>
   );
 }

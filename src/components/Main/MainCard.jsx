@@ -1,3 +1,5 @@
+import "../Main/Main.css";
+
 function MainCard(props) {
   return (
     <div className="content">

@@ -15,8 +15,8 @@ export const DataForMenu = {
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero itaque sit voluptates. Accusamus ex dolor neque veritatis odio iste perspiciatis necessitatibus veniam voluptatum omnis est sint alias, commodi praesentium, ipsa a! Provident illum quidem impedit eligendi voluptatibus, nulla libero tenetur asperiores repudiandae harum. Harum corporis assumenda, ipsum est nostrum quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium deserunt doloremque enim corporis, error voluptas! Culpa enim ex tempore tenetur!",
     image: cafeImg,
   },
-  life_music: {
-    title: "Life Music",
+  live_music: {
+    title: "Live Music",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero itaque sit voluptates. Accusamus ex dolor neque veritatis odio iste perspiciatis necessitatibus veniam voluptatum omnis est sint alias, commodi praesentium, ipsa a! Provident illum quidem impedit eligendi voluptatibus, nulla libero tenetur asperiores repudiandae harum. Harum corporis assumenda, ipsum est nostrum quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium deserunt doloremque enim corporis, error voluptas! Culpa enim ex tempore tenetur!",
     image: musicImg,

@@ -1,4 +1,5 @@
 import "../Header/Header.css";
+import TabButton from "../TabButton/TabButton";
 
 function Header() {
   return (
@@ -8,12 +9,8 @@ function Header() {
       </h1>
       <h2>Pool & Cafe</h2>
       <ul>
-        <li>
-          <a href="#">reservation</a>
-        </li>
-        <li>
-          <a href="#">waiting list</a>
-        </li>
+        <TabButton>Reservation</TabButton>
+        <TabButton>Waiting List</TabButton>
       </ul>
     </header>
   );

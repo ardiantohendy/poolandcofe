@@ -35,7 +35,6 @@ section .content .description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 2em;
 }
 
 section .content .description h1 {
@@ -49,4 +48,5 @@ section .content .description p {
 
 img {
   width: 50%;
+  margin-right: 2em;
 }

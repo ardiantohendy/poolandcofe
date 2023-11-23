@@ -1,11 +1,17 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Header from "./components/Header/Header";
 import MainCard from "./components/Main/MainCard";
 import TabButton from "./components/TabButton/TabButton";
 import { DataForMenu } from "./Datas/Data";
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  }, []);
+
   const [selectedTopic, setSelectedTopic] = useState("pool");
 
   function handleSelect(selectedButton) {
@@ -17,7 +23,7 @@ function App() {
     <div className="App">
       <Header />
       <section className="main">
-        <ul>
+        <ul data-aos="flip-left">
           <TabButton isSelected={selectedTopic === "pool"} onSelect={() => handleSelect("pool")}>
             Pool
           </TabButton>
@@ -28,7 +34,7 @@ function App() {
             Live Music
           </TabButton>
         </ul>
-        <span></span>
+        <span data-aos="zoom-in"></span>
         <MainCard {...DataForMenu[selectedTopic]} />
       </section>
     </div>
